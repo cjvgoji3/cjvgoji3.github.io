@@ -1,0 +1,57 @@
+body {
+    margin: 15px;
+    background-color: rgba(146, 225, 225, 0.982);
+
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    margin: 10px
+
+}
+
+header {
+    background-color:dimgrey;
+    padding-bottom: 20px;
+    color:black;
+
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+#links li {
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid white;
+}
+
+table, th, td, caption {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    font-size: 30px;
+    background-color: brown;
+
+}
+
+nav {
+    background-color:rgb(45, 161, 22)
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+.characterimage {
+    width: 100px;
+    height: 100px;
+}
