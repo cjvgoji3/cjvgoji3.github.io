@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1> my 10 favorite items</h1>
+    </head>
+    <body>
+        <ol><br>
+            <li for="desktop computer">desktop computer</li>
+            <li for="laptop">laptop</li>
+            <li for="deodorant">deodorant</li>
+            <li for="multi-tool">multi-tool</li>
+            <li for="glasses">glasses</li>
+            <li for="smartphone">smartphone</li>
+            <li for="calendar">calendar</li>
+            <li for="notebooks">notebooks</li>
+            <li for="smartwatch">smartwatch</li>
+            <li for="Godzilla 2004 figure">Godzilla 2004 figure</li>
+        </ol>
+        <script>
+             var items = ["desktop computer", "laptop", "deodorant", "Godzilla 2004 figure", "multi-tool", "calendar", "glasses", "calendar", "smartphone", "notebooks", "smartwatch"];
+            document.write("<ul>");
+
+            for( var i = 0; i < items.length; i++)
+            {
+                document.write("<li>" + items[i] + "</li>");
+            }
+
+            document.write("</ul>");
+        </script>
+    </body>
+</html>
