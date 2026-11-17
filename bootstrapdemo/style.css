@@ -36,3 +36,12 @@ body {
     width: 200px;
     height: 200px;
 }
+
+.table {
+    color: white;
+    font-size: larger;
+}
+
+h3 {
+    color: white;
+}
